@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+}
+
+:root {
+  --brown-dark: #4a3027;
+  --brown-medium: #765443;
+  --brown-light: #a88770;
+  --white-warm: #fffdf9;
+  --white-soft: #f7f2ec;
+}
+
+body {
+  background: var(--white-warm);
+  color: var(--brown-dark);
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (steve.jpeg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(54, 34, 26, 0.58), rgba(54, 34, 26, 0.58)), url("hero.png");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-warm);
+}
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+.design-beginnings h1,
+.short-form h1 {
+  font-weight: 700;
+}
+
+.hover:hover .img-responsive {
+  opacity: 0.3;
+}
+
+.hover:hover .img {
+  opacity: 0.3;
+}
+
+
+.bg-b {
+  background: var(--brown-dark);
+  color: var(--white-soft);
+}
+
+.bg-w {
+  background: var(--white-warm);
+  color: var(--brown-dark);
+}
+.bg-w h3,
+.bg-w p {
+  color: var(--brown-dark);
+}
+
+.bg-b h3,
+.bg-b p {
+  color: var(--white-soft);
+}
+
+a {
+  color: var(--brown-medium);
+}
+
+.bg-b a {
+  color: var(--white-warm);
+}
+
+
+
+
+
+
